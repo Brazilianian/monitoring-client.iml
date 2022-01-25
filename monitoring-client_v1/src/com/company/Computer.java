@@ -260,7 +260,7 @@ public class Computer {
             ArrayList<String> gpuInfo = new ArrayList<>();
             for (int i = 0; i < temp2.length - 1; i++) {
                 if (!temp2[i + 1].trim().equals("")) {
-                    gpuInfo.add(temp2[i + 1].trim() + " | ");
+                    gpuInfo.add(temp2[i + 1].trim() + " ");
                 }
             }
 
